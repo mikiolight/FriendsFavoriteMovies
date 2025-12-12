@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Moviedetail: View {
+struct MovieDetail: View {
 	@Bindable var movie: Movie
 
     var body: some View {
@@ -20,5 +20,5 @@ struct Moviedetail: View {
 }
 
 #Preview {
-	Moviedetail(movie: SampleData.shared.movie)
+	MovieDetail(movie: SampleData.shared.movie)
 }
