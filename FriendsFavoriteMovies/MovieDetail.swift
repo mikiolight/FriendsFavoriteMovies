@@ -46,7 +46,7 @@ struct MovieDetail: View {
 }
 
 #Preview {
-	NavigationStack{
+	NavigationStack {
 		MovieDetail(movie: SampleData.shared.movie)
 	}
 }

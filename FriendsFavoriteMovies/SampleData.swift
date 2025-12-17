@@ -51,5 +51,10 @@ class SampleData{
 		for movie in Movie.sampleData{
 			context.insert(movie)
 		}
+
+		Friend.sampleData[0].favoriteMovies = Movie.sampleData[1]
+		Friend.sampleData[2].favoriteMovies = Movie.sampleData[0]
+		Friend.sampleData[3].favoriteMovies = Movie.sampleData[4]
+		Friend.sampleData[4].favoriteMovies = Movie.sampleData[0]
 	}
 }
