@@ -50,6 +50,7 @@ struct MovieList: View {
 		context.insert(newMovie)
 		self.newMovie = newMovie
 	}
+	
 	private func deleteMovie(indexes: IndexSet) {
 		for index in indexes {
 			context.delete(movies[index])
